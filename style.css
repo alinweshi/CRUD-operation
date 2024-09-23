@@ -1,0 +1,227 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+    margin-top: 10px;
+
+    background-color: rgb(39, 39, 53);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    
+}
+
+.inputs {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+
+.inputs.price{
+    width:100%;
+}
+.inputs input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputs .price input {
+    width: 17.5%;
+    /* margin-right: .5%; */
+}
+
+.inputs .price input:last-child {
+    margin-right: 0;
+}
+
+ #total {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border:2px black solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 0px;
+
+}
+
+.inputs #total:hover {
+    background-color: #45a049;
+
+}
+
+.create button,
+.searchBtns button,
+.deleteSelected button,
+.deleteAll button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+}
+
+.create button:hover,
+.searchBtns button:hover,
+.deleteAll button:hover {
+    background-color: #0056b3;
+}
+
+.outputs table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.outputs th, 
+.outputs td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.outputs th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.outputs tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.outputs tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.outputs td {
+    background-color: grey;
+}
+
+.outputs tr:hover {
+    background-color: #dddddd;
+}
+
+#update {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.inputs .search .searchBtns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs .search .searchBtns button {
+    width: 49%;
+}
+
+.searchInput {
+    margin-bottom: 5px;
+}
+
+.create {
+    margin-bottom: 5px;
+}
+
+.category, 
+.quantity, 
+.count,
+.price, 
+.searchInput {
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+#total::before {
+    content: "Total: ";
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover {letter-spacing: 2px;}
+.updateActions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap:5px;
+}
+
+.updateActions button {
+    width: 49%;
+    margin-bottom: 10px;
+}
+#updateBtn{
+    width: 49%;
+    margin-bottom: 10px;
+    background: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#deleteBtn {
+    width: 49%;
+    margin-bottom: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px
+}
+
